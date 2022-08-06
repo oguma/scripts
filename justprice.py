@@ -43,7 +43,7 @@ for i in range(start, center+1):
         # if nice3(iseikyu) and nice3(jseikyu) and nice2(i) and nice2(j):
             if nice3(iseikyu) and nice3(jseikyu):
                 # if nice1(iaddtax) and nice1(jaddtax):
-                    print("[i:%d itax:%d iaddtax:%d igensen:%d iseikyu:%d]" % (i, itax, iaddtax, igensen, iseikyu))
-                    print("[j:%d jtax:%d jaddtax:%d jgensen:%d jseikyu:%d]" % (j, jtax, jaddtax, jgensen, jseikyu))
-                    print("(ij:%d ijtax:%d ijaddtax:%d ijgensen:%d ijseikyu:%d npoout:%d)" % (ij, ijtax, ijaddtax, ijgensen, ijseikyu, npoout))
-                    print("")
+                print("[i:%d itax:%d iaddtax:%d igensen:%d iseikyu:%d]" % (i, itax, iaddtax, igensen, iseikyu))
+                print("[j:%d jtax:%d jaddtax:%d jgensen:%d jseikyu:%d]" % (j, jtax, jaddtax, jgensen, jseikyu))
+                print("(ij:%d ijtax:%d ijaddtax:%d ijgensen:%d ijseikyu:%d npoout:%d)" % (ij, ijtax, ijaddtax, ijgensen, ijseikyu, npoout))
+                print("")
