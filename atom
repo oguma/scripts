@@ -1,0 +1,1 @@
+flatpak run io.atom.Atom $1 &> /dev/null
