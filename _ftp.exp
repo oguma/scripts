@@ -1,0 +1,14 @@
+#!/usr/bin/expect
+
+spawn ftp yourhost
+expect "Name"
+send "yourusername\r"
+expect "Password:"
+send "yourpassword\r"
+expect "ftp> "
+send "cd yourremotedir\r"
+expect "ftp> "
+send "put yourlocaldir/yourfile.xml\r"
+expect "ftp> "
+send "bye\r"
+expect "Goodbye"
